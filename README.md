@@ -1,1 +1,3 @@
-# The-Impact-of-POI-Category-and-Density-on-Racial-Segregation
+# The-Impact-of-POI-Category-and-Density-on-Racial-Segregation  
+
+This research initially used novel GPS datasets sourced from mobile phones to assess the experienced racial diversity of each tract, comparing it with the residential racial diversity reported by the American Community Survey (ACS). I employed SQL to query relevant GPS data from [Cuebiq](https://spectus.ai/) for aggregation analysis, and queried approximately 12 million places of POI data from [Overture Maps Base](https://overturemaps.org/download/), deploying these datasets on Azure platform. Using Python, I conducted data preprocessing through feature engineering, performed clustering of POI with machine learning methods to delineate geographical characteristics, and applied various empirical statistical models for analysis.
